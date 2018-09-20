@@ -1,7 +1,7 @@
 # BP 节点启动步骤
 
 0. BP配置：  
-  2 核CPU & 16 GB 内存
+  4 核CPU & 16 GB 内存
   
 1. Clone这个工程到刚刚启动的BP机器上：  
   `git clone https://github.com/eosiosg/bp-tutorial`
