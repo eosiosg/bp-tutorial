@@ -42,7 +42,7 @@
 
 4. 注册BP：
   `cleos system regproducer **BP的ACCOUNT NAME** **出块签名的PUBLIC KEY** **BP官网的URL**`
-  * BP的官网 (e.g. https://eosio.sg) 下需要包括一个bp.json (e.g. https://eosio.sg/bp.json)，包括一些基本的BP信息，用来展示给社区。可以参考本工程的`bp-sample.json`
+  * BP的官网 (e.g. https://eosio.sg) 中需要包括一个BP相关信息的 bp.json 文件 (e.g. https://eosio.sg/bp.json) 用来展示给社区。可以参考本工程的`bp-sample.json`
 
 5. 领取BP收益：
   `cleos system claimrewards **BP的ACCOUNT NAME**`
