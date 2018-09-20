@@ -23,7 +23,7 @@
   
 6. 确认node运行状态：  
 	a. 运行`cleos get info`，确认`chain_id` 为 `aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906`;  
-	b. 运行`tail -f logs/eos.log`，确认有类似`2018-09-20T04:12:52.136 thread-0   producer_plugin.cpp:330       on_incoming_block    ] Received block 284bc2507c03a1d0... #17347206 @ 2018-09-20T04:12:52.000 signed by xxxxxxxx [trxs: 10, lib: 17346873, conf: 0, latency: 136 ms]` 的日志，证明节点正在正常同步，初次同步可能需要10个小时。  
+	b. 运行`tail -f logs/eos.log`，确认有类似`2018-09-20T04:12:52.136 thread-0   producer_plugin.cpp:330       on_incoming_block    ] Received block 284bc2507c03a1d0... #17347206 @ 2018-09-20T04:12:52.000 signed by xxxxxxxx [trxs: 10, lib: 17346873, conf: 0, latency: 136 ms]` 的日志(node第一次启动接收块的速度比较慢，需要耐心等待几分钟），证明节点正在正常同步，初次同步可能需要10个小时。  
  
 
 # 注册BP & 领取BP收益
