@@ -4,10 +4,10 @@
   2 核CPU & 16 GB 内存
   
 1. Clone这个工程到刚刚启动的BP机器上：  
-  `clone https://github.com/eosiosg/bp-tutorial`
+  `git clone https://github.com/eosiosg/bp-tutorial`
   
 2. 安装eos:  
-	a.`clone https://github.com/EOSIO/eos --recursive && cd eos`；  
+	a.`git clone https://github.com/EOSIO/eos --recursive && cd eos`；  
 	b. git checkout到需要的版本上；  
 	c. `git submodule update --init --recursive`；  
 	d. run `./eosio_build.sh`, build的过程可能需要超过30分钟；  
